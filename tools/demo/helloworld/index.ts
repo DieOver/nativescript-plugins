@@ -4,6 +4,6 @@ import { Helloworld } from '@dieover/helloworld';
 export class DemoSharedHelloworld extends DemoSharedBase {
 
   testIt() {
-    Helloworld.getBatteryLevel();
+    console.log(`Battery Level: ${Helloworld.getBatteryLevel()}%`);
   }
 }
